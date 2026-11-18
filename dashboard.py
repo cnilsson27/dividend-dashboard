@@ -9,7 +9,7 @@ st.set_page_config(page_title="Dividend Bot Dashboard", page_icon="📈", layout
 # ================= Inställningar =================
 st.sidebar.header("⚙️ Inställningar")
 GITHUB_TOKEN = st.sidebar.text_input("GitHub Token (PAT)", type="password")
-REPO_OWNER = "ditt-namn"  # ÄNDRA TILL DITT GITHUB-NAMN!
+REPO_OWNER = "cnilsson27"  # ÄNDRA TILL DITT GITHUB-NAMN!
 REPO_NAME = "dividend-bot"
 FILE_PATH = "trade_log.csv"
 # =================================================
